@@ -1,0 +1,152 @@
+[
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Frontend",
+    "description": "A declarative, component-based JavaScript library for building modern and interactive user interfaces.",
+    "icon": "https://i.ibb.co/1J0zXfGQ/React.png",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
+  },
+  {
+    "id": "vue",
+    "name": "Vue.js",
+    "category": "Frontend",
+    "description": "A progressive JavaScript framework for building user interfaces and single-page applications.",
+    "icon": "https://i.ibb.co/v4vMTbxN/Vue-js.png",
+    "rating": 4.7,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Easy to Learn"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "A JavaScript runtime built on Chrome's V8 engine for creating fast and scalable server-side applications.",
+    "icon": "https://i.ibb.co/Ld7qWnfk/Node-js.png",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Fast"
+  },
+  {
+    "id": "express",
+    "name": "Express.js",
+    "category": "Backend",
+    "description": "A lightweight and flexible Node.js web framework for building APIs and server-side applications.",
+    "icon": "https://i.ibb.co/21bG70kh/Express.png",
+    "rating": 4.7,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Database",
+    "description": "A document-oriented NoSQL database designed for flexible data models and scalable applications.",
+    "icon": "https://i.ibb.co/Vc4zrM56/Mongo-DB.png",
+    "rating": 4.7,
+    "difficulty": "Beginner-Friendly",
+    "badge": "NoSQL"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "A powerful open-source object-relational database system known for reliability, extensibility, and SQL support.",
+    "icon": "https://i.ibb.co/yBPXHPRJ/Postgres-SQL.png",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Top SQL"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Language",
+    "description": "A versatile programming language used to create interactive web applications and server-side software.",
+    "icon": "https://i.ibb.co/Ng8TnFC5/Java-Script.png",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Language",
+    "description": "A strongly typed programming language that builds on JavaScript and improves code reliability and maintainability.",
+    "icon": "https://i.ibb.co/35cwDgf6/Type-Script.png",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Type-Safe"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Language",
+    "description": "A high-level, general-purpose programming language known for its simplicity and wide range of applications.",
+    "icon": "https://i.ibb.co/Df68TgJy/Python.png",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Versatile"
+  },
+  {
+    "id": "tailwindcss",
+    "name": "Tailwind CSS",
+    "category": "Styling",
+    "description": "A utility-first CSS framework for rapidly building custom and responsive user interfaces.",
+    "icon": "https://i.ibb.co/DfkqKCGP/Tailwind-CSS.png",
+    "rating": 4.8,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Modern"
+  },
+  {
+    "id": "sass",
+    "name": "Sass",
+    "category": "Styling",
+    "description": "A CSS preprocessor that adds features such as variables, nesting, mixins, and reusable styles.",
+    "icon": "https://i.ibb.co/0jTp2Pg1/Sass.png",
+    "rating": 4.6,
+    "difficulty": "Beginner-Friendly",
+    "badge": "CSS Power"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "A platform for packaging applications and their dependencies into portable and consistent containers.",
+    "icon": "https://i.ibb.co/7tkVSK7j/Docker.png",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Containers"
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "category": "DevOps",
+    "description": "An open-source platform for automating the deployment, scaling, and management of containerized applications.",
+    "icon": "https://i.ibb.co/q2yKwDH/Kubernetes.png",
+    "rating": 4.8,
+    "difficulty": "Advanced",
+    "badge": "Orchestration"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "Tools",
+    "description": "A distributed version control system used to track code changes and collaborate on software projects.",
+    "icon": "https://i.ibb.co/7hKsp0G/Git.png",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "category": "Tools",
+    "description": "A popular API platform for designing, testing, documenting, and working with web APIs.",
+    "icon": "https://i.ibb.co/4R7pJgJK/Postman.png",
+    "rating": 4.7,
+    "difficulty": "Beginner-Friendly",
+    "badge": "API Testing"
+  }
+]
