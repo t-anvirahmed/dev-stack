@@ -41,7 +41,7 @@ const Footer = () => {
           </a>
         </nav>
       </footer>
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-gray-100 to-transparent"></div>
+      <div className="h-px w-full bg-linear-to-r from-transparent via-gray-100 to-transparent"></div>
       <div className="flex justify-between items-center px-4 pt-4 lg:pb-8 text-footer-rights text-sm">
         <p>© 2026 Dev Stack. All rights reserved.</p>
         <div className="flex gap-4">

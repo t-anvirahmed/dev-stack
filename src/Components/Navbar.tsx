@@ -2,7 +2,7 @@ import Logo from "../assets/logo-text.png";
 import "../index.css";
 const Navbar = () => {
   return (
-    <div className="fixed top-0 left-0 w-full z-50">
+    <div className="fixed top-0 left-0 w-full z-50 bg-white">
       <div className="container mx-auto flex justify-between items-center p-4">
         <div className="navbar-start">
           <div className="dropdown">
@@ -68,7 +68,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end gap-6">
           <button className="text-primary-text">Sign in</button>
-          <button className="btn border-none rounded-4xl text-white bg-nav-btn">
+          <button className="btn border-none rounded-4xl text-white bg-nav-btn transition-all duration-300 ease-out hover:scale-105">
             Sign Up
           </button>
         </div>
