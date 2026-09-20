@@ -53,6 +53,7 @@ DevStack is a modern web application designed to help developers explore and bui
   Because react uses it to identify which is which when something changes.
 
 - What is conditional rendering?
+
   It means showing different UI elements depending on a condition.
 
 - How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
