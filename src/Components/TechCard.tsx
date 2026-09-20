@@ -26,14 +26,16 @@ const TechCard = ({ technology, onAddToStack }: TechCardProps) => {
 
         <p className="mt-1 text-primary-text">{technology.description}</p>
       </div>
-      <div className="my-2 border-t border-slate-100"></div>
+      <div className="my-6 border-t border-slate-100"></div>
       <div className="flex items-center justify-between gap-4">
-        <span className="rounded-xl bg-slate-50 px-4 py-2 text-primary-text">
+        <span className="text-sm rounded-xl bg-slate-50 px-4 py-2 text-primary-text">
           {technology.category}
         </span>
-        <span className=" text-primary-text">{technology.difficulty}</span>
+        <span className=" text-sm text-primary-text">
+          {technology.difficulty}
+        </span>
         <span className="flex items-center gap-2 font-medium text-primary-text">
-          <span className="text-xl text-amber-400">
+          <span className=" text-amber-400">
             <FaStar />
           </span>
           {technology.rating}

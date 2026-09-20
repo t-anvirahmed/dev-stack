@@ -43,6 +43,16 @@ const MainLayout = () => {
     });
   };
 
+  const removeFromStack = (id: string) => {
+    setStack((currentStack) =>
+      currentStack.filter((technology) => technology.id !== id),
+    );
+  };
+
+  const removeAll = () => {
+    setStack([]);
+  };
+
   if (loading) {
     return <p>Loading...</p>;
   }
@@ -54,7 +64,11 @@ const MainLayout = () => {
   return (
     <div className="container mx-auto flex flex-col items-start gap-8 px-4 lg:flex-row lg:justify-between">
       <TechList technologies={technologies} onAddToStack={addToStack} />
-      <Sidebar stack={stack} />
+      <Sidebar
+        stack={stack}
+        onRemove={removeFromStack}
+        onRemoveAll={removeAll}
+      />
     </div>
   );
 };
