@@ -32,7 +32,6 @@ const Sidebar = ({ stack, onRemove, onRemoveAll }: SidebarProps) => {
                 key={technology.id}
                 className="flex items-center justify-between gap-3 rounded-2xl border-2 border-slate-100 p-3"
               >
-                {/* Technology */}
                 <div className="flex items-center gap-3">
                   <img
                     src={technology.icon}
@@ -50,8 +49,6 @@ const Sidebar = ({ stack, onRemove, onRemoveAll }: SidebarProps) => {
                     </p>
                   </div>
                 </div>
-
-                {/* Delete button */}
                 <button
                   type="button"
                   onClick={() => onRemove(technology.id)}
@@ -62,8 +59,6 @@ const Sidebar = ({ stack, onRemove, onRemoveAll }: SidebarProps) => {
                 </button>
               </div>
             ))}
-
-            {/* Remove All button */}
             <button
               type="button"
               onClick={onRemoveAll}

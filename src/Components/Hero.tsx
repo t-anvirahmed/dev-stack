@@ -2,35 +2,6 @@ import heroBanner from "../assets/banner-stack.png";
 import "../index.css";
 const Hero = () => {
   return (
-    //-----without responsive-----
-    // <div className="container mx-auto m-24 p-4 flex justify-between items-center">
-    //   <div>
-    //     <h1 className="text-7xl font-extrabold text-heading">
-    //       Build Your Ideal <br />
-    //       <span className="bg-text-gradient bg-clip-text text-transparent">
-    //         Development Stack
-    //       </span>
-    //     </h1>
-    //     <p className="text-lg text-primary-text mt-10 mb-10">
-    //       Explore frontend, backend, database, and tooling options,
-    //       <br /> compare them side by side, and put together the stack that fits
-    //       your <br /> next project.
-    //     </p>
-    //     <div className="flex gap-4">
-    //       <button className="font-semibold bg-btn-gradient text-white rounded-xl p-4 cursor-pointer transition-all duration-300 ease-out hover:scale-105">
-    //         Explore Technologies
-    //       </button>
-    //       <button className=" box-border border-2 border-[#E5E7EB] px-12 py-3 rounded-xl cursor-pointer transition-all duration-300 ease-out hover:scale-105">
-    //         Learn More
-    //       </button>
-    //     </div>
-    //   </div>
-    //   <div>
-    //     <img src={heroBanner} alt="" />
-    //   </div>
-    // </div>
-    //----------------------------
-    //--responsive styles from chatgpt--
     <div className="container mx-auto px-4 pt-24 sm:px-6 lg:px-8 lg:py-24">
       <div className="flex flex-col items-center gap-8 lg:flex-row lg:justify-between lg:gap-12">
         {/* Hero Content */}
