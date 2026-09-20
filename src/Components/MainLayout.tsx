@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { Technology } from "../Types/types";
 import TechList from "./TechList";
 import Sidebar from "./Sidebar";
+import { toast, ToastContainer } from "react-toastify";
 
 const MainLayout = () => {
   const [technologies, setTechnologies] = useState<Technology[]>([]);
@@ -36,21 +37,31 @@ const MainLayout = () => {
   const addToStack = (technology: Technology) => {
     setStack((currentStack) => {
       if (currentStack.some((item) => item.id === technology.id)) {
+        toast.warning("Already added!");
         return currentStack;
       }
+
+      toast.success("Technology added!");
 
       return [...currentStack, technology];
     });
   };
 
   const removeFromStack = (id: string) => {
-    setStack((currentStack) =>
-      currentStack.filter((technology) => technology.id !== id),
-    );
+    setStack((currentStack) => {
+      const updatedStack = currentStack.filter(
+        (technology) => technology.id !== id,
+      );
+
+      toast.error("Technology removed!");
+
+      return updatedStack;
+    });
   };
 
   const removeAll = () => {
     setStack([]);
+    toast.error("All technologies removed!");
   };
 
   if (loading) {
@@ -69,6 +80,7 @@ const MainLayout = () => {
         onRemove={removeFromStack}
         onRemoveAll={removeAll}
       />
+      <ToastContainer />
     </div>
   );
 };
